@@ -20,8 +20,8 @@ def adivina_el_numero():
             print("el numero es mas bajo ¡Inténtalo de nuevo!")
         else:
             print(f"¡Felicidades! Adivinaste el número en {intentos} intentos.")
-            break
-        intentos=0+1
+        
+        intentos=intentos+1
 
 adivina_el_numero()
 
